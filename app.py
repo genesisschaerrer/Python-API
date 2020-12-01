@@ -85,6 +85,8 @@ def guide_delete(id):
     return guide_schema.jsonify(guide)
 
 
+#this conditional should always be at the end of the document 
+
 if __name__ == '__main__':
     app.run(debug=True)
 
